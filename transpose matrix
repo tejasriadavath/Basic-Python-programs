@@ -1,0 +1,26 @@
+# defining a matrix
+
+matrix = [
+
+[45, 65, 23],
+
+[90, 67, 12],
+
+[65, 12 ,46]
+
+] 
+
+# Transposing the matrix
+
+transp = [[row[i] for row in matrix] for i in range(len(matrix[0]))] 
+
+# Printing the matrix
+
+print("The given matrix is:") 
+
+# Using for-in to print the matrix rows
+
+for row in transp:
+
+    print(row)
+
